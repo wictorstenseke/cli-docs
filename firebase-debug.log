@@ -1,0 +1,59 @@
+[debug] [2026-02-10T07:41:23.985Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-10T07:41:23.986Z] > authorizing via signed-in user (wictorstenseke@gmail.com)
+[debug] [2026-02-10T07:41:23.987Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:23.987Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:23.987Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-10T07:41:23.987Z] > authorizing via signed-in user (wictorstenseke@gmail.com)
+[debug] [2026-02-10T07:41:23.987Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:23.987Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:23.987Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/htk-tennis/billingInfo [none]
+[debug] [2026-02-10T07:41:23.988Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/htk-tennis/billingInfo [none]
+[debug] [2026-02-10T07:41:24.942Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/htk-tennis/billingInfo 200
+[debug] [2026-02-10T07:41:24.943Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/htk-tennis/billingInfo {"name":"projects/htk-tennis/billingInfo","projectId":"htk-tennis","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-10T07:41:24.948Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:24.948Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:24.958Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:24.958Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:24.958Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:24.958Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:24.958Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-10T07:41:24.958Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/cloudfunctions.googleapis.com  x-goog-user-project=htk-tennis
+[debug] [2026-02-10T07:41:24.959Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-10T07:41:24.959Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseapphosting.googleapis.com  x-goog-user-project=htk-tennis
+[debug] [2026-02-10T07:41:24.960Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseio.com [none]
+[debug] [2026-02-10T07:41:24.960Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseio.com  x-goog-user-project=htk-tennis
+[debug] [2026-02-10T07:41:24.967Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/htk-tennis/billingInfo 200
+[debug] [2026-02-10T07:41:24.967Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/htk-tennis/billingInfo {"name":"projects/htk-tennis/billingInfo","projectId":"htk-tennis","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-10T07:41:24.968Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:24.968Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:24.970Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:24.971Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:24.971Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:24.971Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:24.971Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-10T07:41:24.971Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/cloudfunctions.googleapis.com  x-goog-user-project=htk-tennis
+[debug] [2026-02-10T07:41:24.971Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-10T07:41:24.971Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseapphosting.googleapis.com  x-goog-user-project=htk-tennis
+[debug] [2026-02-10T07:41:24.972Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseio.com [none]
+[debug] [2026-02-10T07:41:24.972Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseio.com  x-goog-user-project=htk-tennis
+[debug] [2026-02-10T07:41:25.744Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseio.com 403
+[debug] [2026-02-10T07:41:25.744Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseio.com [omitted]
+[debug] [2026-02-10T07:41:25.745Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseio.com 403
+[debug] [2026-02-10T07:41:25.745Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseio.com [omitted]
+[debug] [2026-02-10T07:41:25.824Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-10T07:41:25.825Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-10T07:41:25.826Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-10T07:41:25.826Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-10T07:41:25.832Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-10T07:41:25.832Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-10T07:41:25.838Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-10T07:41:25.838Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/htk-tennis/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-10T07:41:25.864Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-10T07:41:25.864Z] > authorizing via signed-in user (wictorstenseke@gmail.com)
+[debug] [2026-02-10T07:41:25.864Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:25.864Z] Checked if tokens are valid: true, expires at: 1770712813829
+[debug] [2026-02-10T07:41:25.864Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/htk-tennis/billingInfo [none]
+[debug] [2026-02-10T07:41:26.067Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/htk-tennis/billingInfo 200
+[debug] [2026-02-10T07:41:26.068Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/htk-tennis/billingInfo {"name":"projects/htk-tennis/billingInfo","projectId":"htk-tennis","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-10T07:41:26.071Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-10T07:41:26.071Z] > authorizing via signed-in user (wictorstenseke@gmail.com)
