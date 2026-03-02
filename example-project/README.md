@@ -1,5 +1,8 @@
 # Example Project
 
+> **This is an example project demonstrating the tracking system structure.**
+> Replace all content below with your actual project details.
+
 ## Overview
 A demonstration e-commerce web application showcasing the tracking system structure.
 
@@ -10,9 +13,9 @@ A demonstration e-commerce web application showcasing the tracking system struct
 - Hosting: Vercel (frontend), Railway (backend)
 
 ## Key Links
-- Repository: https://github.com/username/example-project
-- Live Site: https://example-project.vercel.app
-- Design/Figma: https://figma.com/example
+- Repository: <!-- https://github.com/your-username/your-repo -->
+- Live Site: <!-- https://your-project.vercel.app -->
+- Design/Figma: <!-- https://figma.com/file/your-file -->
 
 ## Current Status
 Early development phase. Core infrastructure set up, working on authentication and product catalog features.

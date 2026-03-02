@@ -2,56 +2,76 @@
 
 > Personal documentation system for tracking user stories, features, and ideas across multiple web projects.
 
-## 📊 Projects Overview
+## Projects Overview
 
 | Project | Status | Features | Last Updated |
 |---------|--------|----------|--------------|
-| [Example Project](./example-project/) | Active | 3 planned, 1 in progress | 2026-01-23 |
+| [Example Project](./example-project/) | Active | 3 planned, 1 in progress, 1 done | 2026-01-23 |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Adding a New Project
 1. Create a new folder: `mkdir project-name`
-2. Copy templates: `cp _templates/project-template.md project-name/README.md`
-3. Copy templates: `cp _templates/feature-template.md project-name/features.md`
-4. Edit the files with your project details
-5. Add the project to the table above
+2. Copy the templates:
+   ```
+   cp _templates/project-template.md project-name/README.md
+   cp _templates/feature-template.md project-name/features.md
+   ```
+3. Fill in your project details (replace all `<!-- ... -->` comments)
+4. Add the project to the table above
 
 ### Adding a New Feature
-1. Navigate to the project's `features.md` file
-2. Add the feature under the appropriate status section (Planned, In Progress, or Done)
-3. Fill in the description, details, and notes
+1. Open the project's `features.md`
+2. Add the feature under the appropriate status section
+3. Fill in all fields: priority, owner, effort, created date, dependencies, details, acceptance criteria
+4. Update the feature counts in the project's `README.md`
 
-### Using with GitHub Copilot CLI
-Simply tell Copilot which project and what feature to add:
-- "Add a feature to example-project: user authentication"
+### Moving a Feature Between Statuses
+1. Cut the feature block from its current section
+2. Paste it into the target section
+3. Update `Updated:` date (or add `Completed:` / `Cancelled:` date)
+4. Update feature counts in the project `README.md` and in the table above
+
+### Using with GitHub Copilot / AI Assistants
+- "Add a feature to example-project: OAuth login via Google"
+- "Move the User Authentication feature in example-project to Done, completed today"
 - "Create a new project called my-portfolio"
-- "Move the login feature in example-project to Done"
 
-## 📁 Structure
+## Structure
 
 ```
 cli-docs/
-├── README.md                    # This file - master index
+├── README.md                    # This file — master index
+├── .gitignore                   # Ignore logs, secrets, editor files
 ├── _templates/                  # Templates for new projects
-│   ├── project-template.md      # Copy this for new projects
-│   └── feature-template.md      # Format for feature tracking
+│   ├── project-template.md      # Copy this for a new project README
+│   └── feature-template.md      # Copy this for a new project features file
 └── [project-folders]/           # One folder per project
-    ├── README.md                # Project overview
-    └── features.md              # Feature tracking
+    ├── README.md                # Project overview and feature summary
+    └── features.md              # Detailed feature tracking
 ```
 
-## 💡 Tips
+## Workflow Guidelines
 
-- Keep feature descriptions concise but clear
-- Update the "Last Updated" column when you make changes
-- Use emojis for quick visual scanning (✅ 🚧 📋 ❌)
-- Archive old/cancelled features at the bottom of features.md
-- Regular reviews help keep the tracker useful
+- **Branching:** Use feature branches (`feat/feature-name`) and merge via PR
+- **Commit style:** Imperative present tense — "Add login page", not "Added login page"
+- **Updates:** Update `Last Updated` in the table above whenever you touch a project
+- **Reviews:** Do a weekly pass to catch stale in-progress items
 
-## 🏷️ Status Legend
+## Status Legend
 
-- 📋 **Planned**: Feature identified but not started
-- 🚧 **In Progress**: Currently being worked on
-- ✅ **Done**: Completed and deployed/implemented
-- ❌ **Cancelled**: No longer pursuing this feature
+| Emoji | Status | Meaning |
+|-------|--------|---------|
+| 📋 | Planned | Identified, not started |
+| 🚧 | In Progress | Currently being worked on |
+| ✅ | Done | Completed and deployed |
+| ❌ | Cancelled | No longer pursuing |
+
+## Effort Legend
+
+| Size | Meaning |
+|------|---------|
+| S | Hours |
+| M | 1–3 days |
+| L | 1–2 weeks |
+| XL | Weeks+ |
