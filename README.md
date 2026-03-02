@@ -7,6 +7,7 @@
 | Project | Status | Features | Last Updated |
 |---------|--------|----------|--------------|
 | [Example Project](./example-project/) | Active | 3 planned, 1 in progress, 1 done | 2026-03-02 |
+| [Den Perfekta Mackan](./den-perfekta-mackan/) | Kritisk fas | 3 planned, 1 in progress, 1 done | 2026-03-02 |
 
 ## Quick Start
 
